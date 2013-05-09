@@ -1,0 +1,26 @@
+# E-mail sent with the information filled out in a suggest form.
+#
+# Parameters: {0} recipient name
+#             {1} sender name
+#             {2} repository name
+#             {3} item title
+#             {4} item handle URI
+#             {5} item local URL - may be used in lieu of {4} if not using handle server
+#             {6} collection name
+#             {7} sender message 
+# See org.dspace.core.Email for information on the format of this file.
+#
+Subject: 推薦您有趣的文件
+
+{0} 您好:
+
+{1} 建議我們寄給您這封信，為了告訴您有份有趣的文件在 {2}。
+
+標題: {3}
+網址: {5}
+類別: {6}
+訊息: {7}
+
+DSpace數位典藏系統蒐集、儲存、索引、保存並傳播數位資源。
+想知道更多訊息，請參觀 www.dspace.org
+

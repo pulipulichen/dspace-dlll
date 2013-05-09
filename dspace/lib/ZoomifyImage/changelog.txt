@@ -1,0 +1,54 @@
+5/12/2008
+- Fixed another instance of "SystemError: tile cannot extend outside image" bug when 
+  one of a tile's dimensions is 0 pixels. (Thanks Tomasz Rodecki.)
+- Replaced deprecated transaction.get().commit(#) with transaction.commit() and transaction.savepoint()
+  to account for deprecations/removals from ZODB code starting in Zope 2.8.
+- ZoomifyImage now uses the system temporary directory for temporary files instead of Zope instance root.
+  (Not tested in Windows. Thanks to Johannes Raggam for this suggestion.)
+- Put all test images into "test_images" directory.
+- Updated documentation accordingly.
+
+
+7/11/2007
+- Updated information for php_wrapper contribution.
+
+
+7/5/2007
+- Fixed bug introduced by 7/2/2007 changes.
+
+
+7/2/2007
+- Fixed a bug that leads to the following exception on some images:
+			H:\temp\zoom>python "c:\Documents and Settings\dball\Desktop\ZoomifyImage\ZoomifyFileProcessor.py" 948.jpg
+			Traceback (most recent call last):
+			  File "c:\Documents and Settings\dball\Desktop\ZoomifyImage\ZoomifyFileProcessor.py", line 135, in ?
+			    processor.ZoomifyProcess(sys.argv[1:])
+			  File "c:\Documents and Settings\dball\Desktop\ZoomifyImage\ZoomifyFileProcessor.py", line 127, in ZoomifyProcess
+			    self.processImage()
+			  File "c:\Documents and Settings\dball\desktop\ZoomifyImage\ZoomifyBase.py", line 207, in processImage
+			    self.processRowImage(tier=tier, row=row)
+			  File "c:\Documents and Settings\dball\desktop\ZoomifyImage\ZoomifyBase.py", line 291, in processRowImage
+			    tempImage.save(root + str(tier) + '-' + str(row) + ext)
+			  File "C:\Python24\Lib\site-packages\PIL\Image.py", line 1405, in save
+			    save_handler(self, fp, filename)
+			  File "C:\Python24\Lib\site-packages\PIL\JpegImagePlugin.py", line 409, in _save
+			    ImageFile._save(im, fp, [("jpeg", (0,0)+im.size, 0, rawmode)])
+			  File "C:\Python24\Lib\site-packages\PIL\ImageFile.py", line 490, in _save
+			    e.setimage(im.im, b)
+			SystemError: tile cannot extend outside image
+- Added a new user contribution from Donald Ball and updated documentation 
+  accordingly.			
+
+
+5/24/2006
+ - Fixed bug wherein TIFF files not using the RGB color model were not being
+   properly saved as JPEGs.
+ - Added the following sections to the readme.txt file:
+     - WHO MAY AND MAY NOT BENEFIT FROM THIS SOFTWARE
+     - KNOWN ISSUES
+     - CONTRIBUTIONS
+ - Added two new user contributions:
+     - Gawain Lavers' processing approach using Python and ImageMagick
+     - Justin Henry's PHP wrapper for ZoomifyImage
+ - Tried to fix some embarrassingly glaring grammatical errors in the readme.txt
+ - Added this changelog.txt file :)

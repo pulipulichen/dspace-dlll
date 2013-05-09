@@ -1,0 +1,28 @@
+# E-mail sent with the information filled out in a feedback form.
+#
+# Parameters: {0} current date
+#             {1} email address that the user provided
+#             {2} logged in as
+#             {3} page that the user was on when they selected feedback
+#             {4} User-Agent HTTP Header
+#             {5} Session Id
+#             {6} The user's comments
+#             {7} is expanded to a name of the administrator group
+#
+# See org.dspace.core.Email for information on the format of this file.
+#
+Subject: 意見回饋
+
+留言:
+
+{6}
+
+
+日期:         {0}
+電子郵件地址: {1}
+登入帳戶:     {2}
+錯誤頁面:     {3}
+客戶端程式:   {4}
+Session ID:   {5}
+
+{7}敬上

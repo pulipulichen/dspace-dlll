@@ -1,0 +1,13 @@
+# E-mail sent to DSpace users when new items appear in collections they are
+# subscribed to
+#
+# Parameters: {0} is the details of the new collections and items
+#             {1} is expanded to a name of the administrator group
+# See org.dspace.core.Email for information on the format of this file.
+#
+Subject: 類別訂閱
+您訂閱的類別有以下新增的文件:
+
+{0}
+
+{1}敬上

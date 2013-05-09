@@ -1,0 +1,14 @@
+/* CSS Document */
+/* for submit/progressbar.jsp */
+.progress-bar-hide {
+	position:absolute;
+	top: -1000px;
+	left: -1000px;
+	visibility:hidden;
+}
+
+.submission-alert {
+	font-size:16pt;
+	line-height:3em;
+	text-align:center;
+}

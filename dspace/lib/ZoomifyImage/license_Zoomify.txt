@@ -1,0 +1,85 @@
+NOTE TO DEVELOPERS: TO SUPPORT DEVELOPER CUSTOMIZATION AND ENHANCEMENT OF THE 
+ZOOMIFY VIEWER THE VIEWER SOURCE CODE ('.FLA' FILE RATHER THAN '.SWF' FILE) IS 
+AVAILABLE AS PART OF ZOOMIFY'S ZOOMIFYER FOR FLASH PRODUCT. THAT PRODUCT 
+INCLUDES A DIFFERENT LICENSE AGREEMENT THAT ALLOWS MODIFICATION AND 
+REDISTRIBUTION IN SWF (NON-SOURCE) FORM. PLEASE SEE THAT LICENSE FOR DETAILS.
+
+
+
+ZOOMIFY LICENSE AGREEMENT
+-------------------------
+
+PROVIDED SOFTWARE
+Zoomify Viewer SWF
+
+1. GRANT OF LICENSE. Zoomify grants to you a nonexclusive, royalty-free, right 
+to use the SOFTWARE. 
+
+2. COPYRIGHT. The SOFTWARE is owned by Zoomify or its suppliers and is protected
+by United States copyright laws and international treaty provisions. Therefore, 
+you must treat the SOFTWARE like any other copyrighted material (e.g., a book 
+or musical recording) except that you may either (a) make one copy of the 
+SOFTWARE solely for backup or archival purposes, or (b) transfer the SOFTWARE 
+to a single hard disk provided you keep the original solely for backup or 
+archival purposes. 
+
+3. OTHER RESTRICTIONS. This License is your proof of license to exercise the 
+rights granted herein and must be retained by you. You may not reverse engineer, 
+decompile, or disassemble the SOFTWARE, except to the extent the foregoing 
+restriction is expressly prohibited by applicable law. 
+
+Regarding other uses, or if you are unsure of your rights under this license, 
+please contact Zoomify at business@zoomify.com or 1(877)ZOOMIFY (966-6439).
+
+
+LIMITED WARRANTY
+
+NO WARRANTIES. ZOOMIFY EXPRESSLY DISCLAIMS ANY WARRANTY FOR THE SOFTWARE. THE 
+SOFTWARE AND ANY RELATED DOCUMENTATION IS PROVIDED "AS IS" WITHOUT WARRANTY OF 
+ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, THE IMPLIED 
+WARRANTIES OR MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR 
+NONINFRINGEMENT. THE ENTIRE RISK ARISING OUT OF USE OR PERFORMANCE OF THE 
+SOFTWARE REMAINS WITH YOU.
+
+NO LIABILITY FOR CONSEQUENTIAL DAMAGES. IN NO EVENT SHALL ZOOMIFY OR ITS 
+SUPPLIERS BE LIABLE FOR ANY DAMAGES WHATSOEVER (INCLUDING, WITHOUT LIMITATION, 
+DAMAGES FOR LOSS OF BUSINESS PROFIT, BUSINESS INTERRUPTION, LOSS OF BUSINESS 
+INFORMATION, OR ANY OTHER PECUNIARY LOSS) ARISING OUT OF THE USE OR INABILITY TO
+USE THIS ZOOMIFY PRODUCT, EVEN IF ZOOMIFY HAS BEEN ADVISED OF THE POSSIBILITY 
+OF SUCH DAMAGES. BECAUSE SOME STATES/JURISDICTIONS DO NOT ALLOW THE EXCLUSION 
+OR LIMITATION OF LIABILITY FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES, THE ABOVE 
+LIMITATION MAY NOT APPLY TO YOU.
+
+U.S. GOVERNMENT RESTRICTED RIGHTS
+
+The SOFTWARE and documentation are provided with RESTRICTED RIGHTS. Use, 
+duplication, or disclosure by the Government is subject to restrictions as set 
+forth in subparagraph (c)(1)(ii) of The Right in Technical Data and Computer 
+Software clause at DFARS 252.227-7013 or subparagraph (c)(1) and (2) of the 
+Commercial Computer Software--Restricted Rights 48 CFR 52.227-19, as applicable.
+Manufacturer is Zoomify Inc., Santa Cruz, CA 95060.
+
+This Agreement is governed by the laws of the State of California and of the 
+United States of America.
+
+Should you have any questions concerning this Agreement please write:
+
+Zoomify, Inc.
+Customer Service
+Box 8008
+Santa Cruz, CA 95061
+
+The Zoomify technology provided may make use of SGI U.S. Patent No. 5,760,783, 
+MGI SOFTWARE U.S. Patent No. 5,968,120, and Zoomify's own copyrighted or patent
+pending intellectual property. For more information contact Zoomify at 
+business@zoomify.com. 
+
+Copyright © 1999-2004 Zoomify, Inc. Box 8008 , Santa Cruz, CA, 95061 U.S.A. All 
+rights reserved. "Zoomify", "Zoomifyer", "Zoomifyer for Flash", and "Zoomifyer 
+Enterprise" are trademarks of Zoomify, Inc.
+
+Zoomifyer Software License Agreement (r2004-03-23)
+
+
+
+

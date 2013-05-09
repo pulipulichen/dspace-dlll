@@ -1,0 +1,25 @@
+# Workflow task email message
+#
+# {0}  Title of submission
+# {1}  Name of collection
+# {2}  submitter's name
+# {3}  Description of task
+# {4}  link to 'my DSpace' page 
+# {5}  Name of the administrator group
+#
+Subject: 您有一個新的工作流程查核任務
+
+有人遞交了一份新的遞交作業:
+
+標題:         {0}
+類別:         {1}
+遞交者:       {2}
+
+{3}
+
+為了查核此項工作，請進入您的 "My DSpace" 頁面
+網址:  {4}
+
+非常感謝!
+
+{5}敬上

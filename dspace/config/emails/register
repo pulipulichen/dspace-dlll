@@ -1,0 +1,16 @@
+# E-mail sent to DSpace users when they register for an account
+#
+# Parameters: {0} is expanded to a special registration URL
+#             {1} is expanded to general site administration (Webmaster) e-mail
+#             {2} is expanded to name of the administrator group
+#
+# See org.dspace.core.Email for information on the format of this file.
+#
+Subject: 帳戶註冊
+為了完成註冊帳戶，請點選以下連結:
+
+  {0}
+
+如果您有任何問題，請寄信到電子信箱{1}。
+
+{2}敬上

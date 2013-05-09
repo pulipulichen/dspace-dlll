@@ -1,0 +1,23 @@
+# Rejection email message
+#
+# {0}  Title of submission
+# {1}  Name of collection
+# {2}  Name of the rejector
+# {3}  Reason for the rejection
+# {4}  Link to 'My DSpace' page
+# {5}  Name of the administrator group
+#
+Subject: 遞交作業駁回
+
+您的遞交作業: {0}
+
+遞交目的類別: {1}
+
+您的遞交作業已經被 {2} 駁回
+以下是駁回的理由:
+
+{3}
+
+您的遞交作業並不會被刪除。您可以到您的 "My DSpace" 頁面去取得您的遞交作業: {4}
+
+{5}敬上

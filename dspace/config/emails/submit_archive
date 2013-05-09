@@ -1,0 +1,22 @@
+# Item Archived email message
+#
+# {0}  Title of submission
+# {1}  Name of collection
+# {2}  Name of site
+# {3}  handle 
+# {4}  Name of the administrator group
+#
+Subject: 遞交作業已經通過認可並典藏完成
+
+您的遞交作業: {0}
+
+遞交目的類別: {1}
+
+您的遞交作業已經通過認可，並典藏在{2}當中。
+該文件的控制碼為: {3}
+
+在引用您的文件時，請使用這個控制碼。
+
+非常感謝！
+
+{4}敬上

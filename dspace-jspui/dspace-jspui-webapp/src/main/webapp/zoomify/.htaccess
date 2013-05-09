@@ -1,0 +1,2 @@
+RewriteEngine on
+redirect permanent /jspui/zoomify/ http://www.google.com.tw/

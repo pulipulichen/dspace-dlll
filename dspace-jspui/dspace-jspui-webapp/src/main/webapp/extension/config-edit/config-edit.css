@@ -1,0 +1,193 @@
+table#configFormTable p {
+	margin: 0;
+}
+
+table#configFormTable th.col-span {
+	/*background-color:white;*/
+	padding: 5px 0;
+}
+
+table#configFormTable table tbody tr td {
+	border-bottom: 2px solid white;
+	padding: 5px;
+}
+
+table#configFormTable table tbody tr td.func {
+	min-width: 80px;
+}
+
+table#configFormTable table tbody tr td table tr td {
+	padding: 0px;
+	border-bottom-width: 0;
+}
+
+table#configFormTable table tfoot tr td {
+	padding-top: 5px;
+}
+
+table#configFormTable table tbody tr tfoot tr td { padding: 0; }
+
+table#configFormTable ul {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+table#configFormTable input.text,
+table#configFormTable textarea {
+	width: 90%;
+	/*width: 450px;*/
+}
+table#configFormTable .text.short-text {
+	width: 150px;
+}
+
+table#configFormTable th.config-form-th {
+	min-width: 120px;
+}
+table#configFormTable th {
+	vertical-align: top;
+}
+table#configFormTable textarea.itemlist-widths {
+	display:none;
+}
+
+table#configFormTable table.multi-comma-table tfoot,
+table#configFormTable table.advanced-option-table tfoot { text-align:center; }
+
+/* table#configFormTable table.advanced-option-table { width: 100%;} */
+table#configFormTable table.advanced-option-table td {
+	vertical-align: top;
+}
+table#configFormTable table.advanced-option-table tr.option td.option input.option-value
+{
+	display: block;
+}
+table#configFormTable table.advanced-option-table td label 
+{
+	width: 100%;
+	text-align:left;
+}
+
+table#configFormTable table.advanced-option-table table {
+	width: 100%;
+	margin: 0;
+}
+table#configFormTable table.advanced-option-table div.hint {
+	font-size: x-small;
+}
+
+table#configFormTable table.advanced-option-table input.metadata-value {
+	width: 95%;
+}
+
+/*
+table#configFormTable table.advanced-option-table thead th.metadata table th,
+table#configFormTable table.advanced-option-table input.metadata-value {
+	width: 5em;
+}
+
+table#configFormTable table.advanced-option-table thead th.metadata table th.schema,
+table#configFormTable table.advanced-option-table input.metadata-value.schema {
+	width: 3em;
+}
+*/
+
+table#configFormTable table.browse-index-table td{
+	vertical-align: top;
+}
+table#configFormTable table.browse-index-table input.name-value {
+	width: 80px;
+}
+
+table#configFormTable table.browse-index-table input.metadata-value {
+	width: 140px;
+}
+table#configFormTable table.browse-index-table input.option-value {
+	width: 100px;
+}
+
+table#configFormTable table tfoot { text-align:center;}
+table#configFormTable table .empty { background-color:red; }
+
+table#configFormTable table.browse-index-table td input.datatype-other-value { 
+	width: 100px;
+}
+table#configFormTable table.browse-index-table td.value {
+	width: 235px;
+}
+
+table#configFormTable table.browse-index-table td.value table th {
+	font-size: normal;
+	font-weight: normal;
+	font-size: 10pt !important;
+	text-align:left;
+}
+
+table#configFormTable table.sort-option-table td{
+	vertical-align: top;
+}
+
+table#configFormTable table.sort-option-table .datatype-value {
+	display:block;
+}
+
+table#configFormTable table.sort-option-table .datatype-other-value {
+	width: 80px;
+}
+
+table#configFormTable table.itemlist-columns-table td.metadata {
+	min-width: 240px;
+}
+
+table#configFormTable table.itemlist-columns-table td.width {
+	min-width: 120px;
+}
+
+table#configFormTable table.itemlist-columns-table input.width-value {
+	width: 40px;
+}
+
+table#configFormTable table.itemlist-columns-table select.datatype-value {
+	display:block;
+	margin: 0 auto;
+}
+
+table#configFormTable table.itemlist-columns-table input.limit-value {
+	width: 40px;
+}
+
+table#configFormTable table.itemlist-columns-table td.datatype {
+	text-align:center;
+	width: 135px;
+}
+
+table#configFormTable table.sort-option-table td.isDate {
+	text-align:center;
+}
+
+/*---------------------------------------*/
+div.config-controller {
+	text-align:center;
+	width: 100%;
+	margin: 20px 0;
+}
+
+div.source-div {
+	display:none;
+}
+textarea#source {
+	width: 80%;
+	height: 20em;
+	display:block;
+	margin: 0 auto;
+}
+
+div.config-form-dialog {
+	font-size: 12pt;
+	font-weight: bold;
+	padding: 10px 0;
+}
+
+div.submit-button {
+	text-align:center;
+}

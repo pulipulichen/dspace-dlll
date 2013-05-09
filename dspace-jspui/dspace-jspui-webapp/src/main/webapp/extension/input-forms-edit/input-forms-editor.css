@@ -1,0 +1,241 @@
+/* CSS Document */
+div.input-forms-area	{width: 900px;min-width: 900px;}
+
+div.input-forms-submit-container	{ text-align:center; }
+div.input-forms-switch-container	{ text-align:center; }
+div.ui-widget, textarea.inputFormsTemplate {display:none;}
+div.ui-widget table { width: 100%; height:100%; }
+div.ui-widget table th {
+vertical-align:top; }
+div.ui-widget input.text { width: 100%; }
+div.ui-widget div.hint	{
+	font-size: small;
+	text-align:left;
+}
+div.ui-widget button.disabled {
+	color:#CCCCCC;
+}
+div.ui-widget td {
+	text-align:left !important;
+}
+div.ui-widget td th {
+	text-align:center !important;
+}
+
+div.ui-widget th.th {
+	min-width: 100px;
+}
+
+table.page-content-table thead tr th.function, 
+div.page-content thead tr td.preview { border-bottom: 2px solid #CCCCCC; /*background-color: #DDDDDD;*/ }
+table.page-content-table tbody.page-content-tbody tr td.field-function,
+table.page-content-table tbody.page-content-tbody tr td.field-preview  {border-bottom: 2px solid #CCCCCC;}
+table.page-content-table tbody.page-content-tbody tr td.field-function {padding-top: 5px;}
+table.page-content-table tbody.page-content-tbody tr.field-add td {padding-top:5px;}
+
+div.page-content label { cursor:pointer; }
+div.page-content table.attr-table { width: 100%; }
+div.page-content table.attr-table th { vertical-align:top; }
+div.page-content table.attr-table input.label { width: 90%; }
+div.page-content table.attr-table textarea.hint { width: 90%; }
+
+div.page-content table {width: 100%;}
+/*div.page-content table thead td.preview { border-bottom:1px solid gray;}*/
+div.page-content table thead td.preview div.preview-label { font-size:larger;font-weight:bold;}
+div.page-content table th {vertical-align:top;width: 8em;}
+div.page-content table tbody td.field-preview .text { width: 50%; }
+div.page-content table tbody td.field-preview .preview-required { color:#FF6500; text-align:center; }
+div.page-content table tbody td.field-preview .preview-hint { font-size:80%;text-align:center; }
+div.page-content table tbody td.field-preview .preview-label { width: 5em; }
+div.page-content table tbody td.field-preview .preview-function { width: 5em; }
+div.page-content table tbody td.field-preview .input-tip {font-style:italic;font-size: 80%;padding-right: 5px;}
+div.page-content table tbody td.field-function {vertical-align:top;text-align:center;width: 100px; min-width:100px;}
+div.page-content table tbody tr.field-add	{ text-align:center;}
+div.page-content table tbody tr.field.hover	{ background-color: #EEEEEE }
+div.page-content table tbody tr.field.hover.focus,
+div.page-content table tbody tr.field.focus { background-color: #CCCCCC }
+div.page-content table tbody td.field-function button {/*font-size: 100%*/;width: 35px;height: 22px;}
+
+div.input-forms-area button.icon {
+	/*font-size: 100%;*/
+	width: 35px !important;
+	height: 22px !important;
+	line-height: 22px !important;
+}
+
+/*div.page-content table tbody tr.field-data-source {background-color:#999966;}*/
+div#prompt_field_editor.ui-widget table {height: auto;}
+#prompt_field_editor table tr th {
+	width: 120px;
+}
+#prompt_field_editor table tr th div.hint button {
+	width: 32px;
+	height: 19px;
+	line-height: 20px;
+}
+#prompt_field_editor table tr.tr-value-pairs table {
+	width: 100%;
+	font-size: 80%;
+}
+#prompt_field_editor table tr.tr-value-pairs th,
+#prompt_field_editor table tr.tr-value-pairs tbody.data-value-pairs td {
+	text-align:center;
+	line-height:normal;
+	padding:0;
+}
+#prompt_field_editor table tr.tr-value-pairs tbody.data-value-pairs td input {
+	width: 90%;
+}
+#prompt_field_editor table tr.tr-value-pairs thead th.function {
+	width: 100px;
+	
+}
+#prompt_field_editor table tr.tr-value-pairs tbody.data-value-pairs button {
+	/*font-size: 60%;*/
+	/*border:1px solid red;*/
+	width: 25px;
+	height: 25px;
+	padding: 0;
+	margin: 0;
+}
+#prompt_field_editor table textarea.data-default-value {width: 100%;height:100%;}
+#prompt_field_editor table .data-metadata td {text-align:center;}
+#prompt_field_editor table .data-metadata td select {width: 90%;}
+#prompt_field_editor .data-label {width: 90%;}
+#prompt_field_editor .data-required {width: 50%;}
+
+
+/* --------------------------------------- */
+
+.xmlmetadata-editor	{
+	width: 100%;
+	height: 2em;
+}
+.xmlmetadata-editor thead tr {
+	height: 1em;
+}
+.xmlmetadata-editor thead tr th.editor-header-attr {
+	width: 400px;
+	min-width: 400px;
+}
+.xmlmetadata-editor tbody tr td {
+	vertical-align:top;
+}
+.xmlmetadata-editor .editor-list,
+.xmlmetadata-editor .editor-attr {
+	height: 360px;
+	overflow: auto;
+}
+.xmlmetadata-editor .editor-attr .editor-table tr.defaultValue-tr input.text.defaultValue,
+.xmlmetadata-editor .editor-attr .editor-table tr.value-tr input.text.value {
+	width: 90%;
+}
+
+.xmlmetadata-editor .editor-list li label {
+	cursor:pointer;
+}
+.xmlmetadata-editor .editor-list li.input {
+	color:#006633;
+}
+.xmlmetadata-editor .editor-list li.node {
+	color:#990033;
+}
+
+.xmlmetadata-editor .editor-list li div.data {
+	/*display:none;*/
+}
+.xmlmetadata-editor .editor-list ul.content {
+	background-color:#CCCCCC;
+}
+.xmlmetadata-editor .editor-list div.list-controller	{
+	text-align:center;
+}
+.xmlmetadata-editor .editor-attr table.editor-table {
+	width: 100%;
+}
+.xmlmetadata-editor .editor-attr table.editor-table table.value-pairs {
+	width: 280px;
+}
+.xmlmetadata-editor .editor-attr table.editor-table th	{ vertical-align:top; }
+.xmlmetadata-editor .editor-attr table.editor-table td.displayed input
+, .xmlmetadata-editor .editor-attr table.editor-table td.stored input
+ { width: 90%;
+ 	text-align:left;
+	padding: 0; 
+}
+div.xmlmetadata-area ul.node-content	{
+	/*border-left: 1px solid red;*/
+	margin: 0;
+	padding: 0;
+	padding-left: 0.5em;
+}
+div.xmlmetadata-area span.toggle-trigger {
+	cursor:pointer;
+}
+div.xmlmetadata-area {
+	font-size: 12pt;
+}
+div.xmlmetadata-area div.editor-attr table.editor-table {
+	width: 95%;
+}
+div.xmlmetadata-area table.xmlmetadata-editor td div.editor-list,
+div.xmlmetadata-area table.xmlmetadata-editor td div.editor-attr
+ {
+	text-align:left;
+}
+
+div#prompt_metadata_field_selector tr.field-selector-tr {
+	cursor:pointer; 
+}
+div#prompt_metadata_field_selector tr.field-selector-tr.hover th,
+div#prompt_metadata_field_selector tr.field-selector-tr.hover td {
+	background-color: #FFFF99;
+}
+div#prompt_metadata_field_selector tr.field-selector-tr.selected th,
+div#prompt_metadata_field_selector tr.field-selector-tr.selected td {
+	background-color: #FFFF00;
+}
+div#prompt_metadata_field_selector tbody.field-selector div {
+	text-align:left;
+}
+div#prompt_metadata_field_selector tbody.field-selector div span.metadata {
+	font-weight:bold !important;
+	/*color:red;*/
+}
+div#prompt_metadata_field_selector tbody.field-selector div {
+	text-align:left;
+}
+div#prompt_metadata_field_selector tbody.field-selector th, 
+div#prompt_metadata_field_selector tbody.field-selector td {
+	padding: 5px;
+}
+
+div#prompt_metadata_field_selector tbody.field-selector .summary,
+div#prompt_metadata_field_selector tbody.field-selector div.note {
+	color: gray !important;
+}
+
+div#prompt_metadata_field_selector tbody.field-selector .summary {
+	width: 200px;
+	max-width: 200px;
+	overflow-x:hidden;
+	margin: 0 !important;
+	margin-right: 10px !important;
+}
+
+div#prompt_metadata_field_selector div.field-selector-wrapper {
+	max-height:400px;
+	overflow:scroll;
+	overflow-x:visible;
+}
+
+div#prompt_metadata_field_selector td.field-add th {
+	width: 100px;
+	text-align:left;
+}
+div#prompt_metadata_field_selector td.field-add input, 
+div#prompt_metadata_field_selector td.field-add textarea { width: 90%;}
+
+div.ui-dialog a.ui-dialog-titlebar-close {
+	display:none;
+}

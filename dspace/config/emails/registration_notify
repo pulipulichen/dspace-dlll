@@ -1,0 +1,19 @@
+# Registration notification email
+#
+# Parameters: {0} is expanded to name of the site
+#             {1} Name:
+#             {2} Email:
+#             {3} Registration Date:
+#             {4} is expanded to a name of the administrator group
+#
+# See org.dspace.core.Email for information on the format of this file.
+#
+Subject: 新帳戶註冊通知
+
+{0}有新帳戶註冊:
+
+姓名:                   {1}
+電子郵件地址:           {2}
+日期:                   {3}
+
+{4}敬上

@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<powercam ver="5.1.80229">
+	<abstract>
+		<title>PowerCam Title</title>
+		<author>
+		</author>
+		<manager>
+		</manager>
+		<company>
+		</company>
+		<category>
+		</category>
+		<keywords>
+		</keywords>
+		<comments>
+		</comments>
+	</abstract>
+	<configure>
+		<profile>
+			<audio>
+				<codec>mp3</codec>
+				<bitrate>32</bitrate>
+				<channel>1</channel>
+				<samplerate>32000</samplerate>
+			</audio>
+			<video>
+				<codec>xvid</codec>
+				<bitrate>64</bitrate>
+				<size>160x120</size>
+				<preview>0</preview>
+			</video>
+		</profile>
+		<template>bird</template>
+		<photo size="160x120">photo.gif</photo>
+		<sound volume="3">
+		</sound>
+		<showcursor>1</showcursor>
+	</configure>
+	<sequencing>
+	</sequencing>
+	<index duration="00:04.160" type="OL">
+		<item>
+			<title>index 1</title>
+			<recdate>2009/5/13 下午 02:35:08</recdate>
+			<pos>0</pos>
+		</item>
+	</index>
+</powercam>

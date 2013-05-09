@@ -1,0 +1,76 @@
+/*
+	CSS for XMLMetadata()
+	complete at 2008/10/9
+  	*/
+/*XMLEditor Required CSS*/
+td.node-contents, td.input-contents	{
+	width: 80%;
+}
+
+th.title-hidden,
+button.button-hidden	{
+	visibility:hidden;
+}
+div.embedFCKeditor	{
+	/*background-color:red;*/
+	height: 100px;
+}
+tr.node-temp, tr.input-temp {display:none;}
+.form-required	{background-color:#FF0000;}
+.form-required-title	{color:#FF0000;}
+div.xml-root table caption	{text-align:left;
+	font-weight:bold;
+	padding-left: 0.5em;
+	border-left: 0.5em solid #666666;}
+div.xml-root th	{vertical-align:top;text-align:left;padding-right:0.5em;/*width: 350px;background:#999999;*/}
+div.xml-root th.title-no-value	{display:none;}
+div.xml-root th.title-has-value	{width: 7em; text-align:right;}
+/*
+div.xml-root th.title-no-value	{display:none;width: 10px;background-color:#006699;border:1px solid red;}
+*/
+/*
+div.xml-root th.title-has-value	{width: 7em; background-color:#FF6699;border:1px solid blue;}
+*/
+div.xml-root td.td-no-title	{padding-left: 1em;}
+/*div.xml-root table.table-input	{border-bottom:1px solid #666666;}*/
+div.xml-root td.node-contents,
+div.xml-root td.node-title,
+div.xml-root td.node-function	{
+	/*border-bottom:1px solid #666666; */ 
+	margin-bottom: 1em;
+}
+
+div.xml-root td.node-function	{border-left:1px solid #666666;vertical-align:top;}
+
+div.xml-root td.node-function,
+div.xml-root td.input-function	{width: 100px;}
+div.xml-root table.table-node	{margin-top: 0.5em;}
+div.xml-root input	{width: 90%;/*font-size: 20em;*/}
+div.xml-root input.input-file	{width: 80%;}
+
+span.require-tip	{font-size: 0.8em;}
+
+/*
+div.xml-root td.node-contents,
+div.xml-root td.input-contents	{width: 200px;}
+*/
+div.xml-root td.input-contents	{text-align:left;}
+div.xml-root td.input-function, div.xml-root td.node-function	{width: 200px;}
+
+div.xml-root div.width-extension-function	{
+	width: 7em;
+	margin-top:0; margin-bottom: 0;
+	padding-top 0; padding-bottom: 0;
+	height: 0;
+	line-height: 0px;}
+div.xml-root div.width-extension-title	{
+	/*display:none;*/
+	width: 7em; 
+	margin-top:0;
+	margin-bottom: 0;
+	padding-top: 0; padding-bottom: 0;
+	height: 0;
+	line-height: 0px;}
+div.xml-root .node-function-title	{
+	/*display:none;*/
+	font-size: 0.8em;width: 7em;text-align:center;}
