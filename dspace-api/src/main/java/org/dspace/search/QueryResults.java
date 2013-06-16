@@ -64,7 +64,7 @@ public class QueryResults
     private String errorMsg; //error string, if there is one
 
     /** number of metadata elements to display before truncating using "et al" */
-    private int etAl = ConfigurationManager.getIntProperty("webui.itemlist.author-limit");
+    private int etAl = ConfigurationManager.getIntProperty("webui.itemlist.author-limit", -1);
 
     /**
      * @return  the number of metadata fields at which to truncate with "et al"

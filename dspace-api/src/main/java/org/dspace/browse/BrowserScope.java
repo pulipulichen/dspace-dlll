@@ -106,7 +106,7 @@ public class BrowserScope
     private int level = 0;
 
     /** the number of authors to display in the results */
-    private int etAl = 0;
+    private int etAl = -1;
 
     /** the number of items to offset into the result ie. 0 = 1st record */
     private int offset = 0;
