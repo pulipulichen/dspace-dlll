@@ -52,6 +52,8 @@ import org.dspace.content.Item;
 import org.dspace.core.Context;
 import org.dspace.sort.SortOption;
 
+import org.dspace.core.ConfigurationManager;
+
 /**
  * The results of a Browse, including all the contextual information about
  * the query, as well as the results and associated information to create
@@ -128,7 +130,7 @@ public class BrowseInfo
 	private int focusItem = -1;
 
 	/** number of metadata elements to display before truncating using "et al" */
-	private int etAl = -1;
+    private int etAl = ConfigurationManager.getIntProperty("webui.itemlist.author-limit", -1);
 	
 	private DCValue[] filterDCValue = new DCValue[0];
     private String[] filterOperator = new String[0];

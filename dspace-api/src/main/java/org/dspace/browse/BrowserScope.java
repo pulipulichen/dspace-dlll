@@ -44,6 +44,8 @@ import org.dspace.sort.SortOption;
 import org.dspace.sort.SortException;
 import org.apache.log4j.Logger;
 
+import org.dspace.core.ConfigurationManager;
+
 /**
  * A class which represents the initial request to the browse system.
  * When passed into the BrowseEngine, this will cause the creation
