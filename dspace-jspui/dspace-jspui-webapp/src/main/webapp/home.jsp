@@ -86,7 +86,7 @@
 %>
 
 <dspace:layout locbar="nolink" titlekey="jsp.home.title" feedData="<%= feedData %>">
-qwqwqwqw
+
     <table  width="95%" align="center">
       <tr align="right">
         <td align="right">						
