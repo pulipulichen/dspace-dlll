@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using these metadata."
+authors:
+  - family-names: Chen
+    given-names: Yung-Ting
+    orcid: https://orcid.org/0000-0003-3751-610X
+    email: https://blog.pulipuli.info
+title: "dspace-dlll"
+license: "MIT"
+repository-code: "https://github.com/pulipulichen/dspace-dlll"
+abstract: "A digital archive system modified from DSpace 1.5.0. It features many customized metadata forms and enhanced web browsing functionalities."
