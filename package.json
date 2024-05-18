@@ -28,6 +28,7 @@
     "url": "https://github.com/pulipulichen/dspace-dlll/issues"
   },
   "homepage": "https://github.com/pulipulichen/dspace-dlll#readme",
+  "doi": "10.5281/zenodo.11213978",
   "devDependencies": {
   },
   "dependencies": {

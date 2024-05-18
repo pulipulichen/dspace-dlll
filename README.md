@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/9954185.svg)](https://zenodo.org/doi/10.5281/zenodo.11213978)
+
 dspace-dlll: 數位典藏系統
 ===========
 

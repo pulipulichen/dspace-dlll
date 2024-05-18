@@ -9,3 +9,6 @@ title: "dspace-dlll"
 license: "MIT"
 repository-code: "https://github.com/pulipulichen/dspace-dlll"
 abstract: "A digital archive system modified from DSpace 1.5.0. It features many customized metadata forms and enhanced web browsing functionalities."
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.11213978
