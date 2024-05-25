@@ -9,7 +9,7 @@ A digital archive system modified from DSpace 1.5.0. It features many customized
 
 ![](https://blogger.googleusercontent.com/img/a/AVvXsEjlc86Gm3liUH7WSpmYxDxF7EVpU_17yQcJhUkBka_b-6ke5yIXqP0K8NdXOr6YsWbOpUTILIgrt00RF793uenkHQionwX0nljNLUAwikVAD8LDILSFk5Da11pPxBHNL8mnav4JUBF78ozXevJKoADaEaK6Bj_DRYcbDBxNfAVFv1DT4E5CfuZsTg)
 
-## Technologies
+## Techniques
 
 - Java: DSpace的核心技術。
 - PostgreSQL: DSpace資料庫技術。
